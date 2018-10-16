@@ -1,0 +1,117 @@
+.htmlNoPages .gwd-motion-path-1lr2-anim-x {
+  --gwd-motion-path: {
+    "tangentFollowing": false, "sections": [ {
+      "controlPoints": ["0px", "0px", "144.01px", "12.01px", "357.96px", "112.47px", "445px", "212px"], "startTimeMs": 0, "endTimeMs": 1000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["445px", "212px", "567.09px", "412.41px", "249.57px", "401.1px", "-38px", "377px"], "startTimeMs": 1000, "endTimeMs": 2600, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-38px", "377px", "7.01px", "97.85px", "-182.23px", "145.32px", "-363px", "181px"], "startTimeMs": 2600, "endTimeMs": 4000, "easing": "linear"
+    }
+    , {
+      "controlPoints": ["-363px", "181px", "70.17px", "321.03px", "307.32px", "337.95px", "0px", "0px"], "startTimeMs": 4000, "endTimeMs": 5100, "easing": "linear"
+    }
+    ], "positionTol":0.5, "angleTol":1, "optimizationLevel":0
+  }
+  ;
+  animation:gwd-motion-path-1lr2-keys-x 5.1s linear 0s infinite normal forwards;
+  transform:translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1lr2-keys-x {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3174, 0.3469, 0.641, 0.6961);
+  }
+  18.14% {
+    transform: translate3d(418.6px, 0px, 0px);
+  }
+  19.61% {
+    transform: translate3d(445px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.5811, -2.2692, 0.7499, -0.4114);
+  }
+  28.24% {
+    transform: translate3d(420.06px, 0px, 0px);
+  }
+  29.02% {
+    transform: translate3d(405.39px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3378, 0.328, 0.6659, 0.6675);
+  }
+  50.98% {
+    transform: translate3d(-38px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.6506, -0.4205, 0.8419, 0.5025);
+  }
+  64.02% {
+    transform: translate3d(-102.09px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3364, 0.3292, 0.6635, 0.6697);
+  }
+  78.43% {
+    transform: translate3d(-363px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3375, 0.3293, 0.6715, 0.662);
+  }
+  90.83% {
+    transform: translate3d(89.16px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.2056, 0.4358, 0.4101, 1.7627);
+  }
+  94.07% {
+    transform: translate3d(129.67px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.3794, 0.2712, 0.6891, 0.6542);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+.htmlNoPages .gwd-motion-path-1lr2-anim-y {
+  animation: gwd-motion-path-1lr2-keys-y 5.1s linear 0s infinite normal forwards;
+  transform: translate3d(0px, 0px, 0px);
+}
+@keyframes gwd-motion-path-1lr2-keys-y {
+  0% {
+    transform: translate3d(0px, 0px, 0px);
+    animation-timing-function: cubic-bezier(0.4113, 0.2343, 0.7232, 0.6253);
+  }
+  2.45% {
+    transform: translate3d(0px, 9.54px, 0px);
+    animation-timing-function: cubic-bezier(0.4145, 0.21, 0.7547, 0.6131);
+  }
+  19.61% {
+    transform: translate3d(0px, 212px, 0px);
+    animation-timing-function: cubic-bezier(0.3449, 0.3215, 0.6785, 0.655);
+  }
+  22.75% {
+    transform: translate3d(0px, 270.36px, 0px);
+    animation-timing-function: cubic-bezier(0.1545, 0.831, 0.2034, 1.3719);
+  }
+  50.98% {
+    transform: translate3d(0px, 377px, 0px);
+    animation-timing-function: cubic-bezier(0.3347, 0.3316, 0.6563, 0.6783);
+  }
+  59.9% {
+    transform: translate3d(0px, 215.91px, 0px);
+    animation-timing-function: cubic-bezier(0.2062, 1.6734, 0.2954, 2.4802);
+  }
+  78.43% {
+    transform: translate3d(0px, 181px, 0px);
+    animation-timing-function: cubic-bezier(0.2872, 0.3428, 0.5959, 0.7949);
+  }
+  88.68% {
+    transform: translate3d(0px, 273.23px, 0px);
+    animation-timing-function: cubic-bezier(0.6866, -0.264, 0.8464, 0.4564);
+  }
+  92.45% {
+    transform: translate3d(0px, 238.05px, 0px);
+    animation-timing-function: cubic-bezier(0.3002, 0.3653, 0.6452, 0.6878);
+  }
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+}
+[data-gwd-motion-path-node] {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
